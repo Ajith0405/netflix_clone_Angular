@@ -1,0 +1,65 @@
+.carousel-inner{
+    height: 500px;
+}
+.carousel-inner .carousel-item img{
+    height: 500px;
+    object-fit: cover;
+    
+}
+.carousel-caption{
+    position: absolute;
+    top:15%;
+    left: 10px;
+}
+.title{
+    text-align: left;
+    max-width: 600px;
+    position: relative;
+    top: 30px;
+    left: 10px;
+    color: #ffff;
+    font-weight: bold;
+    font-size:50px;
+}
+.overview{
+    color: #ffff;
+    max-width: 500px;
+    margin-top: 50px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.trendRow{
+    display: flex;
+    gap: 5px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.trendRow::-webkit-scrollbar{
+    display:none;
+}
+.rowimg{
+    max-height: 200px;
+    object-fit: contain;
+    box-sizing: content-box;
+    transition: transform 450ms;
+}
+.rowimg:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.largeposter{
+    max-height: 300px;
+}
+.smallposter{
+    max-height: 180px;
+}
+.btn-moreInfo{
+    position: absolute;
+    left: 10px;
+    background-color: gray;
+    z-index: 999;
+}
+.btn-moreInfo:hover{
+    background-color: #ffff;
+    color:black;
+}

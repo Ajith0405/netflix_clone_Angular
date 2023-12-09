@@ -1,0 +1,31 @@
+img{
+    width: 100%;
+    height: auto;
+}
+h1{
+    color: #ffffff;
+    font-weight: bold;
+}
+p{
+    color: #ffffff;
+}
+.btn-md{
+    background-color: #E50914;
+    color: #ffffff;
+    text-decoration: none;
+}
+.btn-md:hover{
+    background-color: #E50914;
+    color: #ffffff;
+    border: 1px solid #ffff;
+}
+.genersM{
+    display: flex;
+    gap: 5px;
+}
+.geners{
+    background-color: gainsboro;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: black;
+}
